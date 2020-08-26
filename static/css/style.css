@@ -27,6 +27,15 @@ main
 	top: 3%;
 }
 
+#mu-logo-watermark
+{
+	position: fixed;
+	left: 40%;
+	top: 35%;
+	opacity: 0.1;
+	height: 40vh;
+}
+
 h1, h2
 {
 	color: red;
