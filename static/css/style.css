@@ -131,14 +131,13 @@ th
 
 .salutation-outer
 {
-	padding: 2% 0;
+	padding: 2% 1%;
 	display: flex;
 	justify-content: flex-end;
 }
 
 .salutation-inner
 {
-	width: 50%;
 	color: red;
 	font-style: italic;
 	font-size: 20px;
