@@ -66,12 +66,11 @@ section
 
 table
 {
-	border: solid red 2px;
 	border-collapse: collapse;
 	width: 100%;
 }
 
-table, td, th
+td, th
 {
 	border: solid red 2px;
 }
@@ -90,6 +89,16 @@ th
 {
 	border-bottom: none;
 	border-top: none;
+}
+
+.no-right-border
+{
+	border-right: none;
+}
+
+.no-left-border
+{
+	border-left: none;
 }
 
 #total-row
