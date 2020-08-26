@@ -87,3 +87,29 @@ td, th
 	font-size: 20px;
 	font-weight: bold;
 }
+
+.end-section
+{
+	display: flex;
+	width: 90%;
+	margin: auto;
+}
+
+.end-section-data
+{
+	/* display: flex; */
+	flex: 0.5;
+}
+
+.end-data-set
+{
+	display: flex;
+	align-items: baseline;
+	padding-left: 2%;
+}
+
+.salutation
+{
+	text-align: center;
+	flex: 0.5;
+}
