@@ -1,0 +1,75 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: linear-gradient(to right, #b3e5fc , #ffccbc, #c8e6c9);
+	border: solid red 1.5px;
+	color: black;
+}
+
+main
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#mu-logo
+{
+	height: 10vh;
+	position: absolute;
+	left: 2%;
+	top: 3%;
+}
+
+h1, h2
+{
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1
+{
+	padding: 1.5%;
+}
+
+.student-data
+{
+	padding-top: 2%;
+	width: 90%;
+	margin: auto;
+}
+
+.data-set
+{
+	display: flex;
+	align-items: baseline;
+}
+
+label
+{
+	color: red;
+	font-size: 20px;
+}
+
+section
+{
+	padding-top: 2%;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table, td, th
+{
+	border: solid red 2px;
+}
