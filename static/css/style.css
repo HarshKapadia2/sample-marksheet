@@ -10,6 +10,7 @@ body
 	background: linear-gradient(to right, #b3e5fc , #ffccbc, #c8e6c9);
 	border: solid red 1.5px;
 	color: black;
+	font-size: 17px;
 }
 
 main
@@ -113,8 +114,6 @@ th
 {
 	display: flex;
 	flex-direction: column;
-	width: 90%;
-	margin: auto;
 }
 
 .end-section-data
@@ -126,7 +125,8 @@ th
 {
 	display: flex;
 	align-items: baseline;
-	padding-left: 2%;
+	padding: 0.3% 0.5%;
+	flex: 0.33;
 }
 
 .salutation-outer
