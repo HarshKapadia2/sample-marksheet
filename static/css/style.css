@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Typewriter";
+    src: url("../fonts/typewriter.woff2") format("woff2");
+}
+
 *
 {
 	padding: 0;
@@ -10,6 +15,7 @@ body
 	background: linear-gradient(to right, #b3e5fc , #ffccbc, #c8e6c9);
 	border: solid red 1.5px;
 	color: black;
+	font-family: Typewriter, sans-serif;
 	font-size: 17px;
 }
 
@@ -52,8 +58,21 @@ h1
 .student-data
 {
 	padding-top: 2%;
-	width: 90%;
-	margin: auto;
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	column-gap: 1.5rem;
+}
+
+.student-data > label
+{
+	position: relative;
+}
+
+.student-data > label::after
+{
+	content: ":";
+	position: absolute;
+	right: -15px;
 }
 
 .data-set
