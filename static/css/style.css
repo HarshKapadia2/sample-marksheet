@@ -20,7 +20,7 @@ body
 	background: linear-gradient(to right, #b3e5fc , #ffccbc, #c8e6c9);
 	border: solid red 1.5px;
 	color: black;
-	font-family: Typewriter, sans-serif;
+	font-family: Typewriter, "Times New Roman", Times, serif;
 	font-size: 17px;
 }
 
