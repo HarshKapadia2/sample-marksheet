@@ -78,6 +78,14 @@ h1, h2
 	column-gap: 1.5rem;
 }
 
+label
+{
+	color: #e60105;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	padding: 0.5% 0;
+}
+
 .student-data > label
 {
 	position: relative;
@@ -88,14 +96,6 @@ h1, h2
 	content: ":";
 	position: absolute;
 	right: -15px;
-}
-
-label
-{
-	color: #e60105;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 20px;
-	padding: 0.5% 0;
 }
 
 section
