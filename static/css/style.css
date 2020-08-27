@@ -56,7 +56,7 @@ h1
 
 h1, h2
 {
-	color: red;
+	color: #e60105;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -90,7 +90,7 @@ h1, h2
 
 label
 {
-	color: red;
+	color: #e60105;
 	font-size: 20px;
 	padding: 0.5% 0;
 }
@@ -108,7 +108,7 @@ table
 
 td, th
 {
-	border: solid red 2px;
+	border: solid #e60105 2px;
 }
 
 td, th
@@ -118,7 +118,7 @@ td, th
 
 th
 {
-	color: red;
+	color: #e60105;
 }
 
 .no-bottom-top-border
@@ -140,7 +140,7 @@ th
 #total-row
 {
 	text-align: right;
-	color: red;
+	color: #e60105;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -173,7 +173,7 @@ th
 
 .salutation-inner
 {
-	color: red;
+	color: #e60105;
 	font-style: italic;
 	font-size: 20px;
 	font-weight: bold;
