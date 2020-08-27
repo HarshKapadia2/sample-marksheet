@@ -24,8 +24,12 @@ body
 	font-size: 17px;
 }
 
-.svg-background
+#svg-background
 {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
 	background: url(../img/mu-text-watermark.svg);
 }
 
@@ -43,11 +47,19 @@ main
 	top: 3%;
 }
 
+#mu-logo-watermark-wrapper
+{
+	display: grid;
+	place-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
 #mu-logo-watermark
 {
-	position: fixed;
-	left: 40%;
-	top: 35%;
 	opacity: 0.1;
 	height: 40vh;
 }
