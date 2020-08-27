@@ -71,6 +71,8 @@ h1, h2
 {
 	padding-top: 2%;
 	display: grid;
+	width: 90%;
+	margin: auto;
 	grid-template-columns: max-content 1fr;
 	column-gap: 1.5rem;
 }
