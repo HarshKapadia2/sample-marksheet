@@ -98,6 +98,11 @@ label
 	right: -15px;
 }
 
+.student-data > div
+{
+	line-height: 1.5em;
+}
+
 section
 {
 	padding-top: 2%;
