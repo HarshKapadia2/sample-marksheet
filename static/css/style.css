@@ -54,6 +54,11 @@ h1
 	padding: 1.5%;
 }
 
+h2
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
 h1, h2
 {
 	color: #e60105;
@@ -91,6 +96,7 @@ h1, h2
 label
 {
 	color: #e60105;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 20px;
 	padding: 0.5% 0;
 }
@@ -104,6 +110,11 @@ table
 {
 	border-collapse: collapse;
 	width: 100%;
+}
+
+th
+{
+	font-family: "Times New Roman", Times, serif;
 }
 
 td, th
@@ -145,6 +156,11 @@ th
 	font-weight: bold;
 }
 
+.serif-fonts
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
 .end-section
 {
 	display: flex;
@@ -174,6 +190,7 @@ th
 .salutation-inner
 {
 	color: #e60105;
+	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	font-size: 20px;
 	font-weight: bold;
