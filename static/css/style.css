@@ -51,7 +51,8 @@ h1
 {
 	font-family: "Old English", "Times New Roman", Times, serif;
 	font-weight: 100;
-	padding: 1.5%;
+	font-size: 25px;
+	padding: 0.5%;
 }
 
 h2
@@ -87,12 +88,6 @@ h1, h2
 	content: ":";
 	position: absolute;
 	right: -15px;
-}
-
-.data-set
-{
-	display: flex;
-	align-items: baseline;
 }
 
 label
