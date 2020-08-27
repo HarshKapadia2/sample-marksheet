@@ -24,6 +24,11 @@ body
 	font-size: 17px;
 }
 
+.svg-background
+{
+	background: url(../img/mu-text-watermark.svg);
+}
+
 main
 {
 	display: flex;
