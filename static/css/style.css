@@ -3,6 +3,11 @@
     src: url("../fonts/typewriter.woff2") format("woff2");
 }
 
+@font-face {
+    font-family: "Old English";
+    src: url("../fonts/oldEnglishFive.woff2") format("woff2");
+}
+
 *
 {
 	padding: 0;
@@ -42,17 +47,19 @@ main
 	height: 40vh;
 }
 
+h1
+{
+	font-family: "Old English", "Times New Roman", Times, serif;
+	font-weight: 100;
+	padding: 1.5%;
+}
+
 h1, h2
 {
 	color: red;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-h1
-{
-	padding: 1.5%;
 }
 
 .student-data
